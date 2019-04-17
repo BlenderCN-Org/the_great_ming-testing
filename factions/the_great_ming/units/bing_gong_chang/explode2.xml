@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <unit-particle-system>
 	<shape value="linear"/>
-    	<texture value="true" path="images/explosion.png" luminance="false"/>
+    	<texture value="true" path="../../particles/images/explosion.png" luminance="false"/>
 	<mode value="black"/>
 	<primitive value="quad"/>
 	<offset x="0" y="0" z="0"/>
@@ -26,7 +26,7 @@
 		<particle-file path="explode1.xml"/>
 		<!-- outer ground blast ring of flame is shockwave only -->
 		<particle-file path="explode1.xml">
-			<texture value="true" path="images/explosion.png" luminance="true"/>
+			<texture value="true" path="../../particles/images/explosion.png" luminance="true"/>
 			<radius value="3"/>
 			<min-radius value="1"/>
 			<speed value="8"/>

@@ -4,7 +4,7 @@
 	<shape value="conical">
 		<angle value="90"/>
 	</shape>
-    	<texture value="true" path="images/explosion.png" luminance="false"/>
+    	<texture value="true" path="../../particles/images/explosion.png" luminance="false"/>
 	<primitive value="quad"/>
 	<offset x="0" y="0" z="0.0"/>
 	<direction x="0" y="2" z="0"/>
